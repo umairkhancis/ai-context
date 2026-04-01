@@ -1,0 +1,15 @@
+{
+  "name": "ai-context",
+  "owner": {
+    "name": "Umair Ahmed Khan",
+    "email": "umairkhan.cis@gmail.com",
+    "url": "https://github.com/umairkhancis"
+  },
+  "plugins": [
+    {
+      "name": "context-telemetry",
+      "description": "Auto-tracks skill, agent, and MCP usage in Claude Code.",
+      "source": "./context-telemetry"
+    }
+  ]
+}

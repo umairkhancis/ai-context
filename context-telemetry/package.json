@@ -1,0 +1,17 @@
+{
+  "name": "context-telemetry",
+  "version": "1.0.0",
+  "description": "Auto-tracks skill, agent, and MCP usage. Starts a local telemetry server and wires up hooks automatically.",
+  "license": "MIT",
+  "engines": { "node": ">=22.5" },
+  "bin": {
+    "context-telemetry": "./src/server.js"
+  },
+  "files": [
+    "src/",
+    "static/"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "context-telemetry",
+  "version": "1.0.0",
+  "description": "Auto-tracks skill, agent, and MCP usage. Starts a local telemetry server and wires up hooks automatically.",
+  "mcpServers": {
+    "context-telemetry": {
+      "command": "sh",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/src/init.sh"]
+    }
+  }
+}
