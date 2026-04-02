@@ -23,29 +23,18 @@ Auto-track your Claude Code usage patterns with skills, agents, and MCP tools.
 
 ## Installation
 
-### Option 1: Clone the Repository
+### Recommended: Install via Claude Code
 
-```bash
-git clone https://github.com/umairkhancis/ai-context.git
-cd ai-context
+The easiest way to install this plugin marketplace:
+
+```
+/plugin add marketplace https://github.com/umairkhancis/ai-context.git
 ```
 
-Then install individual plugins as needed (see plugin-specific docs).
-
-### Option 2: Install as Claude Code Plugin Collection
-
-If you want all plugins available in your Claude Code environment:
-
-```bash
-# Clone to your Claude Code plugins directory
-cd ~/.claude/plugins
-git clone https://github.com/umairkhancis/ai-context.git
-
-# Or create a symlink
-ln -s /path/to/ai-context ~/.claude/plugins/ai-context
-```
-
-The `.claude-plugin/marketplace.json` file registers all plugins automatically.
+This will:
+- Clone the repository to your Claude Code plugins directory
+- Register all plugins from the marketplace
+- Make them available immediately in your session
 
 ## Project Structure
 
